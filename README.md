@@ -1,4 +1,4 @@
-t## Abstract based sentiment classifier with LSTM. 
+## Abstract based sentiment classifier with LSTM. 
 
 A Classifier to predict aspect-based polarities of opinions in sentences, that assigns a polarity label to every triple &lt;aspect categories, aspect_term, sentence>. The polarity labels are positive, negative and neutral. Note that a sentence may have several opinions.
 
