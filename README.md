@@ -2,7 +2,7 @@
 
 A Classifier to predict aspect-based polarities of opinions in sentences, that assigns a polarity label to every triple &lt;aspect categories, aspect_term, sentence>. The polarity labels are positive, negative and neutral. Note that a sentence may have several opinions.
 
-# MODEL SHORT DESCRIPTION:
+# Model short description:
 
 I used a Recurrent Neural Network with the spacy pre-trained word embdedding vectors from the 'en_core_web_lg' library.
 
@@ -25,6 +25,6 @@ The model consists in the main following steps:
 - test prediction
 
 
-# ACCURACY
+# Accuracy
 
 The final accuracy on the devdata is 81.38 with an execution time of roughly 40 sec# ABSA_sentiment_classifier
